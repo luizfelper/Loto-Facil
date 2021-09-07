@@ -1,0 +1,91 @@
+/* Author: Luiz Felipe Pereira Fontenele;
+	Tel: (86) 9-99989634 / 3323-3167;
+	Facebook: facebook.com/luizfelper;
+
+	Description: Script desenvolvido por Luiz Felipe Pereira Fontenele com a finalidade de geração de números para loto-fácil.
+	Cliente: Cláudio Gonçalves;
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+   @media print { 
+          .number { visibility:hidden; } 
+          form { visibility:hidden; }
+          .botoes { visibility:hidden; }
+          h3 { visibility:hidden; }
+
+        #resultado {
+	        visibility: visible;
+	        position: absolute;
+	        top:0;
+	        left:0;
+    	}
+    }
+
+
+.content {
+	width: 1200px;
+	height: auto;
+	margin: 0 auto;
+}
+
+	#number {
+		width: 600px;
+		height: auto;
+		margin: 0 auto;
+		margin-top: 50px;
+		font-size: 28pt;
+		font-family: verdana;
+		text-align: center;
+	}
+
+	.bgradio {
+		width: 80px;
+		height: 50px;
+		background-color: white;
+		display: inline-block;
+		font-size: 20pt;
+		border: 1px solid #d8d8d8;
+		border-radius: 15px;
+	}
+
+	.bgradiochange {
+		background-color: black;
+	}
+
+	#resultado {
+		width: 1200px;
+		font-size: 20pt;
+		font-family: verdana;
+		height: 50px;
+		margin: 20px;
+		text-align: center;
+		visibility: visible;
+	}
+
+	.item-resultado {
+		display: inline;
+	}
+
+	.botoes {
+		width: auto;
+		height: auto;
+		margin: 0px auto;
+		text-align: center;
+	}
+
+	#btnImprimir {
+		display: none;
+		text-align: center;
+	}
+
+	input[type=checkbox] {
+		padding: 10px;
+	}
+
+	.clear {
+		clear: both;
+	}
